@@ -1,0 +1,26 @@
+.header{
+    background-color: $off-black;
+    border-bottom:.3rem solid $purple;
+    margin-bottom:$l-size;
+    padding: $m-size 0;
+    color:white;
+}
+
+.header__title{
+    font-size:$l-size;
+    margin:0;
+}
+
+.header__subtitle{
+    color:$off-white;
+    font-size:$m-size;
+    font-weight:500;
+    margin:0;
+}
+
+@media(min-width:45rem){
+    .header{
+        margin-bottom:$xl-size;
+    }
+    
+}
