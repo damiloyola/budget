@@ -21,10 +21,9 @@
     "build": "webpack",
     "server": "webpack-dev-server"
   },
-  "name": "sorteador",
+  "name": "",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/damiloyola/sorteador.git",
   "author": "Damian <alt132.dl@gmail.com>",
   "license": "MIT",
   "devDependencies": {
