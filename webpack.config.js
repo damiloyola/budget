@@ -23,6 +23,7 @@ module.exports = {
     },
     devtool:'cheap-module-eval-source-map',
     devServer:{
-        contentBase:path.join(__dirname,'public')
+        contentBase:path.join(__dirname,'public'),
+        historyApiFallback:true //para que no de error 404 el router y vuelva a index.html y desde ahi haga el routeo
     }
 };
